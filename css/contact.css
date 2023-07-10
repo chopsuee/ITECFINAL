@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;700;800&display=swap');
+html{
+ background-color: #F4EBD0;
+ font-family: 'Manrope', sans-serif;
+ padding: 0;
+ margin: 0;
+
+}
+
+body{
+    background-color: #F4EBD0;
+    color: #272A25;
+}
+.contact{
+    margin-top: 8%;
+    margin-left: 25%;
+}
+.contact h1{
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+.contact p{
+    margin-top: 0;
+    color: #272A25;
+    font-size: larger;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+}
+.container form{
+    margin-left: 25%;
+    width: 250px;
+}
+input[type="text"] {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+input[type="text"]:focus {
+    outline: none;
+    border-color: #7E4A24;
+    box-shadow: 0 0 3px #7E4A24;
+}
+input[type="submit"] {
+    background-color: #C9B596;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #272A25;
+    font-size: large;
+    font-weight: bolder;
+}
+input[type="submit"]:hover {
+    background-color: #7E4A24;
+    color: #eeeeee;
+    animation-delay: 1s;
+}
+.container .info_box{
+    padding: 23px 20px;
+    justify-items: center;
+    background-color: #C9B596;
+    border-radius: 8%;
+    margin-right: 18%;  
+    width: 300px;
+}
+.container .info_box .info{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.container .info_box .text{
+    font-weight: 100;
+}  
+
+.info-text{
+    padding-left: 10%;
+}

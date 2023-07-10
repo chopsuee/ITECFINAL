@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;700;800&display=swap');
+
+html{
+    background-color: #F4EBD0;
+    font-family: 'Manrope', sans-serif;
+    padding: 0;
+    margin: 0;
+   
+   }
+
+body{
+    background-color: #F4EBD0;
+    color: #272A25;
+    
+}
+.dot{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+}
+h1{
+    text-align: center;
+    margin-top: 0;
+    font-size:3em;
+    font-weight: bolder;
+}
+.image {
+    margin-top: 0;
+    display: block;
+}
+.dtl1{
+    position: absolute;
+    top: 28%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+.dtl2{
+    position: absolute;
+    top: 50%;
+    left:25%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+.dtl3{
+    position: absolute;
+    top: 78%;
+    left:32%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+.dtl4{
+    position: absolute;
+    top: 28%;
+    left:75%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+.dtl5{
+    position: absolute;
+    top: 50%;
+    left:80%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+.dtl6{
+    position: absolute;
+    top: 78%;
+    left:75%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+.dtl1 h3, .dtl2 h3, .dtl3 h3, .dtl4 h3, .dtl5 h3, .dtl6 h3{
+    color: #613312;
+    margin: 0;
+    padding: 0;
+}
+.dtl1 p, .dtl2 p, .dtl3 p, .dtl4 p, .dtl5 p, .dtl6 p {
+    margin: 0;
+    padding: 0;
+}
